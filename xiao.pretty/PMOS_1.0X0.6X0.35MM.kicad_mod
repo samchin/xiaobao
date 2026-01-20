@@ -1,0 +1,223 @@
+(footprint "PMOS_1.0X0.6X0.35MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2528 -0.0688 180)
+		(layer "F.SilkS")
+		(uuid "f38bf32a-788b-462f-a4ca-c40b93d20949")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.127)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "LP0404N3T5G"
+		(at -0.68 0.04 180)
+		(layer "F.Fab")
+		(uuid "741ffaeb-2a6a-4098-be20-fffa66dd0567")
+		(effects
+			(font
+				(size 0.376489 0.376489)
+				(thickness 0.029911)
+			)
+			(justify right)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f74ff2c-1629-40fc-88ed-5d477921a505")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8852bd71-027f-496e-bb9e-0510b0c128cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "LP0404N3T5G"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0455fcae-90f4-4985-851b-0aa025f10c1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "LRC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcd446f8-72cf-4b1e-bb4d-cf8ed94f2f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "PMOS"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d724ef1-1c2f-47ab-b7d0-c80c394045e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "462049cd-28ea-4f43-a376-7f0c49030cc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "305031466"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e852292a-7cf2-4dcd-a12d-87a734656792")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15b9db8a-a112-48e1-b2b0-b913cf108f75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-50°C to 150°C"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e394f4-cbdb-4ab9-b335-b944876dda0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -0.3 -0.5)
+		(end 0.3 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e1936eb-fae3-4fe5-9323-01dabc6b5e9b")
+	)
+	(fp_rect
+		(start -0.3 -0.5)
+		(end 0.3 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ea9e9f93-d5de-4bfe-99ac-4bb7c671bb6e")
+	)
+	(pad "1" smd roundrect
+		(at -0.175 0.325 90)
+		(size 0.25 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "0d0732df-8fdc-4f4c-8816-8d701777e1e3")
+	)
+	(pad "2" smd roundrect
+		(at 0.175 0.325 90)
+		(size 0.25 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fb4e5b35-b1a8-4d95-9d88-4db9b39383a1")
+	)
+	(pad "3" smd roundrect
+		(at 0 -0.325)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c592bafb-81bf-43a4-b68f-2ec8f6c7542b")
+	)
+	(embedded_fonts no)
+)

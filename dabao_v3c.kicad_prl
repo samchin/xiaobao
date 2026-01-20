@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_820200a7",
+    "visible_layers": "00000000_00000000_00000080_02000021",
     "zone_display_mode": 0
   },
   "git": {
@@ -71,6 +71,10 @@
       false,
       false,
       false,
+      false,
+      false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -83,19 +87,27 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11,
+      12,
+      13
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
+      156,
+      141,
+      103,
       71,
-      91,
-      91
+      103,
+      103,
+      103,
+      74,
+      103,
+      103,
+      103,
+      103,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -116,7 +128,7 @@
   "schematic": {
     "selection_filter": {
       "graphics": true,
-      "images": true,
+      "images": false,
       "labels": true,
       "lockedItems": false,
       "otherItems": true,

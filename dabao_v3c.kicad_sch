@@ -1467,28 +1467,25 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "P & G:+3V3"
+			(power)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1496,24 +1493,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1522,7 +1501,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1531,10 +1510,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1545,19 +1543,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1568,20 +1555,554 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "P & G:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libadl:Module/XIAO-HALF-HOLE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -21.59 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Module:MOUDLE14P-XIAO-HALF-HOLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "XIAO-HALF-HOLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Module/XIAO-HALF-HOLE_1_0"
+				(polyline
+					(pts
+						(xy -21.59 13.97) (xy 20.32 13.97)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 11.43) (xy -22.86 11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 11.43) (xy -21.59 13.97)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 7.62) (xy -21.59 11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 3.81) (xy -22.86 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 3.81) (xy -21.59 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 0) (xy -22.86 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 0) (xy -21.59 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -3.81) (xy -22.86 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -7.62) (xy -22.86 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -11.43) (xy -22.86 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 -13.97) (xy -21.59 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 13.97) (xy 20.32 11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 11.43) (xy 20.32 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 7.62) (xy 20.32 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 3.81) (xy 20.32 -13.97)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -13.97) (xy -21.59 -13.97)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 11.43) (xy 20.32 11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 7.62) (xy 20.32 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 3.81) (xy 20.32 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 0) (xy 20.32 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -3.81) (xy 20.32 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -7.62) (xy 20.32 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -11.43) (xy 20.32 -11.43)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -24.13 11.43 0)
 					(length 2.54)
-					(name "1"
+					(name "PA02_A0_D0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1597,9 +2118,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -24.13 7.62 0)
 					(length 2.54)
-					(name "2"
+					(name "PA4_A1_D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1610,6 +2131,664 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 3.81 0)
+					(length 2.54)
+					(name "PA10_A2_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 0 0)
+					(length 2.54)
+					(name "PA11_A3_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -3.81 0)
+					(length 2.54)
+					(name "PA8_A4_D4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -7.62 0)
+					(length 2.54)
+					(name "PA9_A5_D5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -11.43 0)
+					(length 2.54)
+					(name "PB08_A6_D6_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 11.43 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "PA6_A10_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(name "PA5_A9_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "PA7_A8_D8_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -11.43 180)
+					(length 2.54)
+					(name "PB09_A7_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Misc/TP-1.6MM-ROUND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Test Point"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Misc:TP-1.6MM-ROUND"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point;TP-1.6MM-ROUND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "TP-1.6MM-ROUND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Misc:TP-1.6MM-ROUND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Misc/TP-1.6MM-ROUND_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_libdb:Switch/311021459"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SKTAAAE010"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Switch:SW4-SMD-2.8-2.6X1.6X0.53MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Top Button 163gf:4P-2.6*1.6*0.53mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ALPSALPINE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SKTAAAE010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "311021459"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature" "-30°C to 85°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Switch:SW4-SMD-2.8-2.6X1.6X0.53MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch/311021459_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -1.27 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -5894,6 +7073,12 @@
 		(uuid "2be9660c-ca3c-49b8-8962-d10b5fa30980")
 	)
 	(junction
+		(at 63.5 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd38072-0216-4104-bb6e-5c950f649fbe")
+	)
+	(junction
 		(at 82.55 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6050,6 +7235,12 @@
 		(uuid "a6db06da-26a9-41f6-a6b9-19628c013cec")
 	)
 	(junction
+		(at 71.12 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9aa5ca8-97f5-47bf-b8ca-3bbdb110020a")
+	)
+	(junction
 		(at 72.39 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6110,6 +7301,12 @@
 		(uuid "d46a7e6e-15ad-4a64-a438-3efa09d6f98b")
 	)
 	(junction
+		(at 161.29 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a0f8d1-d67b-421f-9da0-dc4c56f3a764")
+	)
+	(junction
 		(at 58.42 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6168,6 +7365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9dffae8-4319-4a29-a5b3-94d497a9ca78")
+	)
+	(junction
+		(at 153.67 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbfa641d-12bc-462e-8b5e-02a5b865f290")
 	)
 	(junction
 		(at 87.63 53.34)
@@ -6281,6 +7484,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 74.93) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0698d1e9-d83b-4a08-9257-f91d1369ec64")
+	)
+	(wire
+		(pts
 			(xy 224.79 111.76) (xy 227.33 111.76)
 		)
 		(stroke
@@ -6338,6 +7551,16 @@
 			(type default)
 		)
 		(uuid "0b7d3c22-2d9c-40f0-80a4-099eae2714f1")
+	)
+	(wire
+		(pts
+			(xy 160.02 63.5) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d61c899-8bba-4fc8-9f5d-d61b05e102ef")
 	)
 	(wire
 		(pts
@@ -6541,6 +7764,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 41.91) (xy 238.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2798a697-060c-4cd6-9b56-1eb5629fc24c")
+	)
+	(wire
+		(pts
+			(xy 160.02 74.93) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e71d43-5c52-401c-b048-0278fb7284af")
+	)
+	(wire
+		(pts
 			(xy 135.89 111.76) (xy 151.13 111.76)
 		)
 		(stroke
@@ -6631,6 +7874,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 46.99) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2defff32-9683-42b8-945d-1dfebc1700c0")
+	)
+	(wire
+		(pts
 			(xy 110.49 73.66) (xy 110.49 76.2)
 		)
 		(stroke
@@ -6691,6 +7944,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 71.12) (xy 184.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384a5345-3baf-4bcd-a901-d05172e7a1b6")
+	)
+	(wire
+		(pts
 			(xy 35.56 165.1) (xy 35.56 163.83)
 		)
 		(stroke
@@ -6721,6 +7984,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 67.31) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3e43cd-612b-4571-b7f6-37fb1bcdadf8")
+	)
+	(wire
+		(pts
 			(xy 102.87 128.27) (xy 135.89 128.27)
 		)
 		(stroke
@@ -6728,6 +8001,16 @@
 			(type default)
 		)
 		(uuid "3afe2ab8-43eb-4c3b-a2ee-2a48d73b673f")
+	)
+	(wire
+		(pts
+			(xy 71.12 259.08) (xy 71.12 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3affa23f-5ff4-403e-b736-7a4741584264")
 	)
 	(wire
 		(pts
@@ -6781,6 +8064,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed5f40e-d718-4e3e-8732-b783dde2cbe2")
+	)
+	(wire
+		(pts
 			(xy 299.72 59.69) (xy 299.72 62.23)
 		)
 		(stroke
@@ -6828,6 +8121,16 @@
 			(type default)
 		)
 		(uuid "4948423c-ae08-4972-98aa-f10770aea3fc")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4cb115-1598-4b79-ae90-0aea314b90ae")
 	)
 	(wire
 		(pts
@@ -6901,7 +8204,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 260.35) (xy 193.04 260.35)
+			(xy 161.29 260.35) (xy 193.04 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7071,6 +8374,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 46.99) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65aa5cac-8e54-416d-b660-66714d5c6f5d")
+	)
+	(wire
+		(pts
 			(xy 87.63 111.76) (xy 96.52 111.76)
 		)
 		(stroke
@@ -7211,6 +8524,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 63.5) (xy 236.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f3ea0a-5136-476c-9590-dc243aa20ba0")
+	)
+	(wire
+		(pts
 			(xy 175.26 127) (xy 189.23 127)
 		)
 		(stroke
@@ -7218,6 +8541,16 @@
 			(type default)
 		)
 		(uuid "77242add-de64-417d-9521-d00859a0eac0")
+	)
+	(wire
+		(pts
+			(xy 236.22 60.96) (xy 236.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cd946b-644c-4160-834e-7bafabcfd384")
 	)
 	(wire
 		(pts
@@ -7301,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 260.35) (xy 152.4 260.35)
+			(xy 148.59 260.35) (xy 153.67 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7338,6 +8671,16 @@
 			(type default)
 		)
 		(uuid "86cf798d-0ab1-41fd-a76b-d6fb8129a85e")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8709dbad-a885-4d25-9bc9-92b944d16eef")
 	)
 	(wire
 		(pts
@@ -7378,6 +8721,16 @@
 			(type default)
 		)
 		(uuid "8a33c06e-7807-460e-b0be-572f96ee7236")
+	)
+	(wire
+		(pts
+			(xy 231.14 67.31) (xy 236.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf27a35-0036-41bd-a01f-9ba794094d40")
 	)
 	(wire
 		(pts
@@ -7458,6 +8811,16 @@
 			(type default)
 		)
 		(uuid "968d74c4-e4cc-46fc-b6e2-078bc90c2fbb")
+	)
+	(wire
+		(pts
+			(xy 63.5 259.08) (xy 63.5 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cd7f2b-743b-4732-af76-cb43b58c9094")
 	)
 	(wire
 		(pts
@@ -7561,6 +8924,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 259.08) (xy 161.29 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c1c945-b178-4553-8317-1e1d22abc347")
+	)
+	(wire
+		(pts
 			(xy 189.23 111.76) (xy 186.69 111.76)
 		)
 		(stroke
@@ -7568,6 +8941,16 @@
 			(type default)
 		)
 		(uuid "a5f68748-9cb3-4e85-8ae4-31316605f030")
+	)
+	(wire
+		(pts
+			(xy 71.12 260.35) (xy 73.66 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a768aedf-9dd4-4180-90e6-7b150177a113")
 	)
 	(wire
 		(pts
@@ -7771,6 +9154,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 31.75) (xy 189.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd30c658-4a87-4a75-a234-99ff3f176160")
+	)
+	(wire
+		(pts
 			(xy 154.94 209.55) (xy 165.1 209.55)
 		)
 		(stroke
@@ -7831,6 +9224,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 259.08) (xy 153.67 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae04d4-c7e7-473e-80e5-ba1d195e8aae")
+	)
+	(wire
+		(pts
 			(xy 290.83 182.88) (xy 302.26 182.88)
 		)
 		(stroke
@@ -7838,6 +9241,16 @@
 			(type default)
 		)
 		(uuid "c6ca9120-f168-4080-a6c5-39edf23e63b9")
+	)
+	(wire
+		(pts
+			(xy 249.555 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f34452-8dce-4e0a-b2da-d1ae6309242f")
 	)
 	(wire
 		(pts
@@ -7911,17 +9324,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 260.35) (xy 73.66 260.35)
+			(xy 220.98 31.75) (xy 238.76 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf393775-fd1a-4233-ae6d-bd7c593e1f80")
+		(uuid "d00083a9-30fa-4a47-8c4e-df0abf5e67cf")
 	)
 	(wire
 		(pts
-			(xy 58.42 260.35) (xy 62.23 260.35)
+			(xy 58.42 260.35) (xy 63.5 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7988,6 +9401,16 @@
 			(type default)
 		)
 		(uuid "d5ee4389-f165-4cd3-81c4-a7c33be7b355")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fafcc9-866b-443a-91d8-0cf63e0a93f9")
 	)
 	(wire
 		(pts
@@ -8061,6 +9484,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 36.83) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e023d265-fb95-4c51-879a-44202e9c6e02")
+	)
+	(wire
+		(pts
 			(xy 288.29 80.01) (xy 302.26 80.01)
 		)
 		(stroke
@@ -8078,6 +9511,16 @@
 			(type default)
 		)
 		(uuid "e3b6f4ba-bbb9-40ce-96e6-8a13ee548146")
+	)
+	(wire
+		(pts
+			(xy 231.14 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bb74dd-57dd-44cf-8e4b-c89628d82c13")
 	)
 	(wire
 		(pts
@@ -8211,6 +9654,16 @@
 	)
 	(wire
 		(pts
+			(xy 249.555 66.04) (xy 249.555 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb69b277-12d4-43a6-be15-fbecea42c7e6")
+	)
+	(wire
+		(pts
 			(xy 175.26 119.38) (xy 189.23 119.38)
 		)
 		(stroke
@@ -8268,6 +9721,16 @@
 			(type default)
 		)
 		(uuid "ef64efc5-ea26-48d8-bd14-cd01edd0168a")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bfe408-dfe8-4b4c-97b9-01c8ac0fb5eb")
 	)
 	(wire
 		(pts
@@ -8341,6 +9804,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 36.83) (xy 238.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1a2c78-ebc7-4214-9cc7-5c2032e4b3be")
+	)
+	(wire
+		(pts
 			(xy 227.33 144.78) (xy 227.33 158.75)
 		)
 		(stroke
@@ -8348,6 +9821,16 @@
 			(type default)
 		)
 		(uuid "fc873cde-e0c2-48c7-ae13-3ae28e6a07e8")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 189.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2e6667-dc0e-4429-8d2c-f404753eede1")
 	)
 	(wire
 		(pts
@@ -8419,6 +9902,16 @@
 		)
 		(uuid "19afaaac-7571-474c-9469-c247a4d5deb4")
 	)
+	(label "GPIO5{slash}D3{slash}SPI0_CS"
+		(at 163.83 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aa3df8f-bd3c-4165-9bff-395dc3488c5d")
+	)
 	(label "PB12"
 		(at 234.95 142.24 0)
 		(effects
@@ -8428,6 +9921,26 @@
 			(justify left bottom)
 		)
 		(uuid "1f603b0c-f449-472c-80ee-f01ac930239a")
+	)
+	(label "GPIO26{slash}D0{slash}ADC0"
+		(at 163.83 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20729656-b59c-45e4-94d0-f2b9bc16494a")
+	)
+	(label "GPIO4{slash}D9{slash}SPI0_MISO"
+		(at 233.68 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26874755-208e-437a-8eb3-895ae08d15f8")
 	)
 	(label "PC12"
 		(at 288.29 77.47 0)
@@ -8529,6 +10042,16 @@
 		)
 		(uuid "405d1a60-5331-4bcb-8f4c-3a0efc8bc78c")
 	)
+	(label "GPIO17{slash}D13{slash}SCL0"
+		(at 222.25 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4324390a-074e-4abf-b252-921dfe8827a9")
+	)
 	(label "PC13"
 		(at 96.52 186.69 0)
 		(effects
@@ -8548,6 +10071,16 @@
 			(justify left bottom)
 		)
 		(uuid "5088b997-d5af-43a3-8e73-1a6592fb0682")
+	)
+	(label "GPIO7{slash}D5{slash}SCL1"
+		(at 163.83 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5132e1ec-6132-48d3-9ae1-ac8c1c89f20f")
 	)
 	(label "PC13"
 		(at 193.04 260.35 0)
@@ -8639,6 +10172,16 @@
 		)
 		(uuid "64c36b0e-a527-48da-9000-75019e12eb5e")
 	)
+	(label "GPIO12{slash}D16{slash}SPI1_MISO"
+		(at 165.1 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64fd396d-e238-4b00-805b-5b9817bcdb96")
+	)
 	(label "PB14"
 		(at 290.83 187.96 0)
 		(effects
@@ -8658,6 +10201,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c34f627-de15-4389-ab15-b92977c17fe9")
+	)
+	(label "GPIO16{slash}D14{slash}SDA0"
+		(at 222.25 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c6aa0fa-e809-4252-a610-bc4a8309ae44")
 	)
 	(label "RST_N"
 		(at 232.41 132.08 0)
@@ -8698,6 +10251,46 @@
 			(justify left bottom)
 		)
 		(uuid "7e078908-d695-46ca-b3f7-a46a7d613afc")
+	)
+	(label "GPIO21{slash}D11{slash}RX1"
+		(at 222.25 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "816c2138-d652-4bca-aded-9b239f5d1ff2")
+	)
+	(label "GPIO0{slash}D6{slash}TX0"
+		(at 163.83 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "856610bd-1806-46d1-b31a-2a90b0adb566")
+	)
+	(label "GPIO28{slash}D2{slash}ADC2"
+		(at 163.83 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bfd3d66-acf1-4197-b806-694d63c282f7")
+	)
+	(label "GPIO27{slash}D1{slash}ADC1"
+		(at 163.83 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c02a1f7-c9c7-4932-a949-63c526e5a3bb")
 	)
 	(label "PC8"
 		(at 175.26 121.92 0)
@@ -8759,6 +10352,16 @@
 		)
 		(uuid "94ec7fb0-e426-4f33-b211-92fda8dc75fe")
 	)
+	(label "GPIO9{slash}D18{slash}SPI1_CS"
+		(at 165.1 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97111e74-8ec4-4075-a7c1-7ddc38adedae")
+	)
 	(label "PB2"
 		(at 234.95 129.54 0)
 		(effects
@@ -8819,6 +10422,16 @@
 		)
 		(uuid "addd79cb-ba2b-47c2-9e93-401fe470383a")
 	)
+	(label "GPIO20{slash}D12{slash}TX1"
+		(at 222.25 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b15109ae-b9a9-49f4-9ad6-4ef893dfb9dd")
+	)
 	(label "PB2"
 		(at 290.83 157.48 0)
 		(effects
@@ -8829,6 +10442,16 @@
 		)
 		(uuid "b4505a4b-8c52-46d1-9118-9eb8debd370e")
 	)
+	(label "GPIO2{slash}D8{slash}SPI0_SCK"
+		(at 233.68 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6ef2f80-8ef2-4ece-9e77-d889965428e0")
+	)
 	(label "PC0"
 		(at 175.26 139.7 0)
 		(effects
@@ -8838,6 +10461,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3e30402-edb4-41d7-81e2-03d46f65c83d")
+	)
+	(label "GPIO1{slash}D7{slash}RX0"
+		(at 233.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ec7878-15e0-4d88-be06-1d1d306024af")
 	)
 	(label "2.5V"
 		(at 66.04 71.12 0)
@@ -8949,6 +10582,16 @@
 		)
 		(uuid "e7efbf2b-1377-467d-bf71-9e5575bbacf4")
 	)
+	(label "GPIO11{slash}D15{slash}SPI1_MOSI"
+		(at 165.1 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea260c2a-820e-4550-81cb-f787b5f85510")
+	)
 	(label "PC7"
 		(at 175.26 127 0)
 		(effects
@@ -8958,6 +10601,36 @@
 			(justify left bottom)
 		)
 		(uuid "ecb26589-ffd3-479a-8bb9-28cc677484f7")
+	)
+	(label "GPIO3{slash}D10{slash}SPI0_MOSI"
+		(at 233.68 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f011c196-b330-4fb3-bcf9-174b4fb9eae9")
+	)
+	(label "GPIO6{slash}D4{slash}SDA1"
+		(at 163.83 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f018d48d-a228-4d90-8976-1f4915c89bac")
+	)
+	(label "GPIO10{slash}D17{slash}SPI1_SCK"
+		(at 165.1 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f884a5cf-614d-4bae-9208-2ed570fd91e4")
 	)
 	(label "EN"
 		(at 195.58 194.31 0)
@@ -9318,6 +10991,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 218.44 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "10156b4f-7ecd-4c65-8511-585c9575a191")
+		(property "Reference" "TP13"
+			(at 213.36 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 211.328 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Misc:TP-1.6MM-ROUND"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "908f27e3-dcbb-459d-b6ca-0e51705474fc")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power-altium-import:root_3_Res1")
 		(at 99.06 252.73 0)
 		(unit 1)
@@ -9555,154 +11354,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "157c09c3-8358-4329-91de-1cc885cefb29")
-		(property "Reference" "SW2"
-			(at 162.56 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 157.48 255.7089 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "common:SW_Push_1P1T_XKB_TS-1187A"
-			(at 157.48 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TS-1187A-B-B-B"
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C528026"
-			(at 162.56 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_IPC" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_JEDEC" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_JEITA" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HIGH-RELIABILITY" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUMBER" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 157.48 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10af1a13-b24a-4c5f-b6ed-cc274030bb3f")
-		)
-		(pin "2"
-			(uuid "7eee4ce7-cd36-486d-89fe-f96a2b2c5efd")
-		)
-		(instances
-			(project "dabao_v1"
-				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power-altium-import:P1.8V_BAR")
 		(at 294.64 118.11 180)
 		(unit 1)
@@ -9893,6 +11544,135 @@
 			(project "dabao_v2"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 191.77 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a17ce4e-42f6-4878-aeba-8845facebf64")
+		(property "Reference" "TP12"
+			(at 194.31 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 194.31 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xiao:TP-1.6MM-ROUND"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5671d67-7153-4cee-ad7c-1a995eded0a3")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10295,7 +12075,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "22fa8597-d055-48a8-9dba-33023529ea42")
 		(property "Reference" "U3"
@@ -11973,6 +13753,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Switch/311021459")
+		(at 67.31 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac0de55-b55a-49b3-98ae-0e171addde3d")
+		(property "Reference" "SW1"
+			(at 67.564 265.176 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "SKTAAAE010"
+			(at 67.564 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "xiao:SW4-SMD-2.8-2.6X1.6X0.53MM"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Top Button 163gf:4P-2.6*1.6*0.53mm"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKTAAAE010"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311021459"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Button"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-30°C to 85°C"
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83bb028d-f037-4a51-9806-5f2ae6f16d29")
+		)
+		(pin "3"
+			(uuid "0eb453e5-8619-4a25-b59f-e23acd0c551d")
+		)
+		(pin "4"
+			(uuid "340c9799-a0a4-4e04-b16a-80fb23ba7917")
+		)
+		(pin "2"
+			(uuid "bd802321-c018-4185-beed-90724c692c13")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "P & G:GND")
+		(at 236.22 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bdbf96a-7d39-493b-a591-9068ac3ba315")
+		(property "Reference" "#PWR036"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 239.395 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb075739-2ddc-4d00-8d3f-da1dfd0eb99c")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "common:root_3_Cap Semi")
 		(at 90.17 114.3 0)
 		(unit 1)
@@ -13087,7 +15068,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -14691,6 +16672,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 218.44 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "77bc147e-e53a-4ca1-8ea6-236e528ce51e")
+		(property "Reference" "TP15"
+			(at 213.36 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 211.328 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Misc:TP-1.6MM-ROUND"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 218.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5fee4f2-a44d-4a25-a469-85edc1d07e97")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 45.72 240.03 0)
 		(unit 1)
@@ -14855,6 +16962,132 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 218.44 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "825c48e6-d105-4bf9-a13e-b7c56082df83")
+		(property "Reference" "TP16"
+			(at 213.36 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 211.328 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xiao:TP-1.6MM-ROUND"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3dad396-2ef7-4044-9964-97f9bfd51b06")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -15142,6 +17375,135 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 191.77 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d180208-f249-4651-b867-ecce608b4f13")
+		(property "Reference" "TP8"
+			(at 194.31 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 194.31 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xiao:TP-1.6MM-ROUND"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78572bfe-6696-408e-96fe-086f3485423a")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -15973,6 +18335,72 @@
 		)
 	)
 	(symbol
+		(lib_id "P & G:+3V3")
+		(at 249.555 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c2b8012-a34a-4941-9058-41cfd3cb8f66")
+		(property "Reference" "#PWR065"
+			(at 249.555 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 249.555 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.555 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 249.555 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20be35bd-69d2-493a-8663-5e523915176e")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power-altium-import:P1.8V_BAR")
 		(at 106.68 189.23 180)
 		(unit 1)
@@ -16032,154 +18460,6 @@
 			(project "dabao_v2"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 67.31 260.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a147cd3e-4e1c-41e1-8e82-ab53489eefc1")
-		(property "Reference" "SW1"
-			(at 72.39 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 67.31 255.7089 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "common:SW_Push_1P1T_XKB_TS-1187A"
-			(at 67.31 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TS-1187A-B-B-B"
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C528026"
-			(at 72.39 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_IPC" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_JEDEC" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CODE_JEITA" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HIGH-RELIABILITY" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUMBER" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 67.31 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a208d730-3371-4d05-bd95-681ddb450bce")
-		)
-		(pin "2"
-			(uuid "0496dbd7-7c09-4abd-b8aa-3a468467e530")
-		)
-		(instances
-			(project "dabao_v1"
-				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16246,6 +18526,135 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 191.77 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82ce76b-8319-4d85-a69f-c8fe8b97c34e")
+		(property "Reference" "TP11"
+			(at 194.31 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 194.31 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xiao:TP-1.6MM-ROUND"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a78d283-a0d0-48db-a448-d4e8c6ca5ef2")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -16593,6 +19002,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 218.44 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b3193238-f0b9-4714-9362-1c02ce73cb43")
+		(property "Reference" "TP14"
+			(at 213.36 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 211.328 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Misc:TP-1.6MM-ROUND"
+			(at 220.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56835b8c-9739-4115-8057-f4e64219b5db")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power-altium-import:root_3_Res1")
 		(at 217.17 214.63 0)
 		(unit 1)
@@ -16754,6 +19289,173 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libadl:Module/XIAO-HALF-HOLE")
+		(at 208.28 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e5a333-9e5b-454e-86de-233a047ac1d3")
+		(property "Reference" "U2"
+			(at 207.645 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "xiao:MOUDLE14P-XIAO-HALF-HOLE"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "XIAO-HALF-HOLE"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2175ab0f-ed50-4e26-8b74-3986056f9438")
+		)
+		(pin "10"
+			(uuid "ed794702-8657-49f9-bf56-f14f64a8fbf0")
+		)
+		(pin "11"
+			(uuid "5588433a-b745-40f3-a5ab-75922a8bd3ed")
+		)
+		(pin "12"
+			(uuid "74a6f364-eb0c-4765-9ddd-b00e61c1537a")
+		)
+		(pin "13"
+			(uuid "e48ff527-abd4-4aa1-a0f9-81aa22a7c514")
+		)
+		(pin "14"
+			(uuid "34e4bb8f-6ff4-4c55-982f-d430fe11a45a")
+		)
+		(pin "2"
+			(uuid "fc09ee11-f8b3-4f82-b259-e431da928073")
+		)
+		(pin "3"
+			(uuid "140e1b9f-de34-41ed-9658-12e56181eba6")
+		)
+		(pin "4"
+			(uuid "6841d06a-05f9-4ebf-b5f4-d310bdc2f04f")
+		)
+		(pin "5"
+			(uuid "c1124cda-1648-4af4-9093-d29a7376c10c")
+		)
+		(pin "6"
+			(uuid "723ac88a-dc1e-402d-a056-4270a9977fdf")
+		)
+		(pin "7"
+			(uuid "c8912883-b1ef-430d-bd54-07a5cc7c8596")
+		)
+		(pin "8"
+			(uuid "8cb52da5-5d79-4f38-ab37-19bae8f74ad3")
+		)
+		(pin "9"
+			(uuid "cccde0bb-e3e3-45fe-962b-6306175d44d6")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 78.74 0)
 		(unit 1)
@@ -16880,6 +19582,72 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "P & G:+3V3")
+		(at 236.22 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c94087c5-cb91-45a7-a25d-8a56320a749e")
+		(property "Reference" "#PWR025"
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef6af2c-a254-4772-b300-7a3cba0c025e")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17075,6 +19843,141 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_libdb:Switch/311021459")
+		(at 157.48 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ffef5d-9741-41fc-a39c-1200d6287e09")
+		(property "Reference" "SW2"
+			(at 157.734 265.176 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "SKTAAAE010"
+			(at 157.734 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "xiao:SW4-SMD-2.8-2.6X1.6X0.53MM"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Top Button 163gf:4P-2.6*1.6*0.53mm"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKTAAAE010"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311021459"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Button"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "-30°C to 85°C"
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eee4c0f-4902-4ba3-bdb7-0711200d2e8d")
+		)
+		(pin "3"
+			(uuid "805fa489-5973-4c53-9441-caff97129143")
+		)
+		(pin "4"
+			(uuid "797dfdfb-6876-4dc1-a370-1ac3a8ac4aaa")
+		)
+		(pin "2"
+			(uuid "3b86e577-e7fb-47b3-b5ba-f300a88a0ab6")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -17790,7 +20693,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -18720,6 +21623,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Seeed_libdb:Misc/TP-1.6MM-ROUND")
+		(at 191.77 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e87f0bb3-4af9-442e-86a8-cd3e5473f9da")
+		(property "Reference" "TP7"
+			(at 194.31 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 194.31 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "xiao:TP-1.6MM-ROUND"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point;TP-1.6MM-ROUND"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "TP-1.6MM-ROUND"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Test Point"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" ""
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "782a5774-debb-4a51-993c-7e978454854c")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Terrance:XTAL4")
 		(at 60.96 240.03 0)
 		(unit 1)
@@ -18744,7 +21776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 60.96 240.03 0)
 			(effects
 				(font
@@ -18770,7 +21802,7 @@
 				(hide yes)
 			)
 		)
-		(property "AltPN" "C70579"
+		(property "AltPN" "C2450980"
 			(at 60.96 240.03 0)
 			(effects
 				(font
@@ -18779,7 +21811,7 @@
 				(hide yes)
 			)
 		)
-		(property "VendorPN" "X322548MSB4SI"
+		(property "VendorPN" "ECS-480-8-47-JTN-TR"
 			(at 60.96 240.03 0)
 			(effects
 				(font
@@ -18788,7 +21820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2892060"
+		(property "LCSC" "C2450980"
 			(at 50.8 250.19 0)
 			(effects
 				(font
@@ -19250,7 +22282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 76.2 257.81 0)
 			(effects
 				(font

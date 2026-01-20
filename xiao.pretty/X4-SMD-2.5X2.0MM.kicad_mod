@@ -1,0 +1,311 @@
+(footprint "X4-SMD-2.5X2.0MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0964 -0.337 0)
+		(layer "F.SilkS")
+		(uuid "4a1db2c4-6894-42b1-b0f7-bad99f6a7b2a")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "12MHz 12pF"
+		(at 0 0.254 0)
+		(layer "F.Fab")
+		(uuid "bb1c0fb9-feaf-4dfb-b6d9-6de83c8e3826")
+		(effects
+			(font
+				(size 0.542544 0.542544)
+				(thickness 0.067056)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b084a8f1-aaf1-4557-b663-cce87e7b3a34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Crystal 12MHz-12pF-10ppm-150R;4P-L2.5*W2.0*H0.45mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25a8942b-5f6b-4720-a56c-249aa33cd042")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "XYDBPCNANF-12MHZ"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cef886a-f3b3-4c45-8e92-a89529286626")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TAITIEN"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3832d755-8360-4266-b6f9-4d94a3d11b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "Crystal"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55df968a-7a35-4520-8ef9-00bfb8304f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "10ppm"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6cfb22d-aaeb-4fea-9375-8b6388638598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "306011189"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e905e34-0bbb-4729-9d81-65217978af9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "XIAO_RP2350"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bd756e4-d859-451e-b3df-652f27302739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-20°C to 70℃"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dce96474-289c-45bb-ac2d-da85bfc67d3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.27 -1.016)
+		(end 1.27 1.016)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "df0d2e8d-25df-43b3-89da-9a3436f42243")
+	)
+	(fp_rect
+		(start -1.2446 -0.9906)
+		(end 1.2192 0.9652)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "457721f9-dd83-4026-8b01-8edc34ebd342")
+	)
+	(fp_circle
+		(center -0.9144 0.635)
+		(end -0.7874 0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "605cedf4-a27d-4363-83cf-55dbcc905402")
+	)
+	(fp_line
+		(start -1.25 -0.1905)
+		(end -1.25 0.1905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "c61a623c-36ef-42a4-a3a0-16dcb4b4a09b")
+	)
+	(fp_line
+		(start -0.361 -1)
+		(end 0.361 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "6cd424c8-05b9-475b-9344-e1423591a593")
+	)
+	(fp_line
+		(start 0.361 1)
+		(end -0.361 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "de8293a0-7e0f-49f5-be40-a1781a306610")
+	)
+	(fp_line
+		(start 1.25 -0.1905)
+		(end 1.25 0.1905)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "72c48f78-2970-4b85-8fb5-b753e785cade")
+	)
+	(fp_circle
+		(center -1.778 0.762)
+		(end -1.651 0.762)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "f8e1df0f-8859-4475-99c9-a38099e8f78c")
+	)
+	(pad "1" smd roundrect
+		(at -0.9 0.7)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7f4f5dea-9034-492a-904c-6e23d70878a2")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 0.7)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "9bada9db-efd2-4e54-87ec-ec441885a9a7")
+	)
+	(pad "3" smd roundrect
+		(at 0.9 -0.7)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e1c9aaaa-78c7-479f-b79b-310cf791614d")
+	)
+	(pad "4" smd roundrect
+		(at -0.9 -0.7)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a2e2032a-3671-4b2b-ae90-1de7aba6b619")
+	)
+	(embedded_fonts no)
+	(model "Y:/01_Cadence_Library/02_PCB_Library/3D/Crystal_SMD_SeikoEpson_FA238-4Pin_2.5x2.0mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

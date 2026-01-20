@@ -1,0 +1,273 @@
+(footprint "R0201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0126 0.0102 0)
+		(layer "F.SilkS")
+		(uuid "6f19b807-b00d-4eda-9935-ba33e27e8d17")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "470K"
+		(at 0 0.508 0)
+		(layer "F.Fab")
+		(uuid "d48df3b5-f070-49f9-ae60-8f1f4c378b0f")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66eb5ed1-9034-46b8-9226-0f60ccb77090")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD RES 470K-1%-1/20W;0201"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "521cf758-a348-4c3d-91f9-957c36aa9b71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "RC0201FR-07470KL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d27e4d7-ef5c-41f6-8f19-d56bca428029")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "YAGEO"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f073726-48b9-48a6-a0dc-d2afb0f10c2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "RES"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ede51311-47f2-4513-8be6-0e921b1f736e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power Rating" "1%"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "728629d3-465b-4c7a-a749-880cf30c087e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Resistance" "470K"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7b507c-0e27-40db-9ca7-03c4b4100909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "301010764"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587e2042-d6cd-449a-ae83-cdcf5cb49ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "XIAO RP2350"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a0bcbed-b201-499b-94fa-15fd17d0f856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-55°C to 125°C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "691e385f-dd96-44ff-b294-0337d0461652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fcd6319-3fe2-4a67-8317-6b7693c56598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.3556 -0.1524)
+		(end 0.3556 0.1524)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "592cddb5-9509-4986-84e0-b9d6c086cc18")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63262290-1908-4d9e-9fc5-3928fa7f66d9")
+	)
+	(fp_line
+		(start -0.508 -0.254)
+		(end 0.508 -0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "72eaad26-d8d2-43d5-9a3a-67462243384e")
+	)
+	(fp_line
+		(start -0.508 0.254)
+		(end -0.508 -0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "3b0e555f-3719-4941-a1f0-ebaf68815c9b")
+	)
+	(fp_line
+		(start 0.508 -0.254)
+		(end 0.508 0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "43687ff2-aa0a-44f1-81e8-1d336067ff25")
+	)
+	(fp_line
+		(start 0.508 0.254)
+		(end -0.508 0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "4bd9748c-8df7-45dd-ab56-e115024804e0")
+	)
+	(pad "1" smd roundrect
+		(at -0.2547 0)
+		(size 0.2794 0.3175)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d5757856-7eec-479c-b5df-f42cabf53602")
+	)
+	(pad "2" smd roundrect
+		(at 0.2547 0)
+		(size 0.2794 0.3175)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "12ecfca4-97b1-42f3-914b-2567c62c38c9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

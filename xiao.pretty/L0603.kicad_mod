@@ -1,0 +1,249 @@
+(footprint "L0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.06 0.02 180)
+		(layer "F.SilkS")
+		(uuid "7d94deca-ffac-449e-b8ab-8ad80af9bd13")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "0.47uH"
+		(at 0 0.1905 180)
+		(layer "F.Fab")
+		(uuid "25525e7e-a332-4fe5-8bd6-b48531741ab3")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80870a14-6cb0-448e-9f79-7987d0b9aa7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d44fbfcf-d453-4927-93e7-685ccfa1606d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TFM160808ALC-R47MTAA"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af4a5032-2feb-4b07-9bb2-47e09b1ce361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TDK"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcbb288c-d600-4001-8324-f4b7cb7f9a1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "Inductor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e390cf96-5e2d-479f-8183-964e44a188ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "2.6A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f49fa197-1f44-4db7-a930-394b5abd17cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "303011858"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6f51dce-ee51-4710-96a6-b5dad15d9327")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" "XIAO"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e46bea-aab6-4938-9242-6ab129f74e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-40°C to 125°C"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd6b51b2-1c4e-44ce-9dba-4f57c544ad9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.1 -0.55)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "90acb220-1d10-4c97-b30e-dd47cdb03fcd")
+	)
+	(fp_rect
+		(start -1.1 -0.55)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28a9a6a1-0d0e-4e85-9033-3b6fb5160633")
+	)
+	(fp_line
+		(start -1.1 -0.55)
+		(end 1.1 -0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "67c61b4c-563b-4b40-8022-8a9bd41ff6a5")
+	)
+	(fp_line
+		(start -1.1 0.55)
+		(end -1.1 -0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "4a87d842-643b-4515-a9c8-42cdcfef8f3c")
+	)
+	(fp_line
+		(start 1.1 -0.55)
+		(end 1.1 0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "6c38d243-ab5a-4183-a283-aaf8564a2c8c")
+	)
+	(fp_line
+		(start 1.1 0.55)
+		(end -1.1 0.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.3")
+		(uuid "6c9a0cbf-0fd7-4f1f-8061-8f8ca6ac4ff7")
+	)
+	(pad "1" smd roundrect
+		(at -0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.11)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "45dba988-502b-4da5-ad90-4538c0b36701")
+	)
+	(pad "2" smd roundrect
+		(at 0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.11)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "59c2e087-d9d5-4ff3-bf3c-7f60b04a66e1")
+	)
+	(embedded_fonts no)
+	(model "Y:/01_Cadence_Library/02_PCB_Library/3D/R0603.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

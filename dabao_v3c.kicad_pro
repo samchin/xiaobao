@@ -724,6 +724,36 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SKU",
+          "name": "SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Type",
+          "name": "Part Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature",
+          "name": "Temperature",
+          "show": false
         }
       ],
       "filter_string": "",

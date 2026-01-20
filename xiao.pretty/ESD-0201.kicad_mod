@@ -1,0 +1,256 @@
+(footprint "ESD-0201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0444 -0.0288 180)
+		(layer "F.SilkS")
+		(uuid "de377b6a-0b69-4461-b66d-6c3b3a065ae5")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "DF2B7ASL,L3F"
+		(at 0.05 0.7 180)
+		(layer "F.Fab")
+		(uuid "45e818e9-f82c-4ea9-9cd1-ced6d3b314da")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1aa4270-3d10-4655-be98-d45d00cac1d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Diode ESD 5.5V-6V-12pF-30KV-30KV;X1SON(2)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6e89a2b-9c2d-46fc-be0d-5983da4d2b25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TOSHIBA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a98a33ce-23d5-41a5-82e2-f5dc27c083ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "DF2B7ASL,L3F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02b03e9a-d8ab-447d-82e0-c61a725b7c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "DF2B7ASL,L3F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49b9209f-52f3-4bd5-a236-ab8239edcb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "ESD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1747d776-eb39-4056-9458-15f610ba69c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "5.5V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a36c0023-a23a-4f2d-8af2-93caec1443c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b79fa888-fb00-45e7-9011-ec0607604724")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-40°C to 125°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa78d00e-76ef-48a7-a456-bc558e7e3f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.3556 -0.1524)
+		(end 0.3556 0.1524)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "752a9f56-902f-4d26-8c0a-4be294fb4bc8")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.0508)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "992a9229-e981-4036-9aa5-10952320040b")
+	)
+	(fp_line
+		(start -0.508 -0.254)
+		(end 0.508 -0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "bbc64253-59f6-42a1-af3c-f3d3eee5be2d")
+	)
+	(fp_line
+		(start -0.508 0.254)
+		(end -0.508 -0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "516f391f-413b-4cf6-8c91-edb95bf34532")
+	)
+	(fp_line
+		(start 0.508 -0.254)
+		(end 0.508 0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "ae5751a7-6812-4938-a0da-85b73e49084a")
+	)
+	(fp_line
+		(start 0.508 0.254)
+		(end -0.508 0.254)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "331ff638-052e-4b50-9710-b20ae209c14c")
+	)
+	(pad "1" smd roundrect
+		(at -0.2547 0)
+		(size 0.2794 0.3175)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1d92bcd8-4eca-47de-aec5-9d72a1970fb3")
+	)
+	(pad "2" smd roundrect
+		(at 0.2547 0)
+		(size 0.2794 0.3175)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "6ab6007e-e111-43b2-be8b-1731763377a7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

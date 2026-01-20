@@ -1,0 +1,174 @@
+(footprint "TP-D45MIL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.905 -0.635 0)
+		(layer "User.2")
+		(uuid "29adc3f3-eee2-411a-85bd-48b2b0a048a1")
+		(effects
+			(font
+				(size 0.2032 0.254)
+				(thickness 0.0508)
+			)
+			(justify right top mirror)
+		)
+	)
+	(property "Value" "Test Point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d777e7b-323f-44c1-a60f-3bcc233a2692")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "c2b5346e-7957-4ac2-a1fa-c1715fbe35b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "94d8c263-ca4b-4e99-97a8-a442184c560d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e16555b5-feb8-42b6-a88b-f808551caa6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0c06b4b-2d79-4829-921e-86763475e06d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "Test Point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eb2598f-fb81-4d25-849d-5e9118dd7ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03756b9e-406a-452e-ab80-642dc6970e93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "TP45C_SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b74a4fa-8400-49c4-b2d4-97546da0ed5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86ffb1a3-a8cd-4923-9e7d-807756becaed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9537bb70-c272-44e9-995b-1dbf25705c99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.762 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5b9de904-c8e4-4896-af56-f4f19c95f92d")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 1.143 1.143)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1.016)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e75dec06-fd9c-47fd-9077-0491e81f08e8")
+	)
+	(embedded_fonts no)
+)
