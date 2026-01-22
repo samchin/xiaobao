@@ -1,0 +1,319 @@
+(footprint "BGA6-0.35-0.85X1.2X0.4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -0.688 0)
+		(layer "F.SilkS")
+		(uuid "03ab3ba3-af31-4e7c-923c-81d8d2912e3a")
+		(effects
+			(font
+				(size 0.78232 0.78232)
+				(thickness 0.10668)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SGM6029CYG/TR"
+		(at -1.1 0.3 0)
+		(layer "F.Fab")
+		(uuid "4df942ea-ac5d-43bf-b832-1258335b15d1")
+		(effects
+			(font
+				(size 0.536448 0.536448)
+				(thickness 0.073152)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1443562-3527-424d-a483-37d459cc1384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD IC PMIC;DCDC Buck-ADJ-1A,Vin 1.95V to 5.5V,Vout 1.8V to 3.3V;WLCSP-6B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "013c66be-6251-406c-b2af-608bb95e4057")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SGMICRO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e65208f3-ec63-4c54-998a-102c68758d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SGM6029CYG/TR	"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f29d216e-a59d-437d-8bfc-c117ecc5f2a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "310032702"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0611805e-2aef-4b14-8cef-2e3a79970bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "DCDC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8efb1d77-06fb-474e-b5bb-54ef2f21ab2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3e11f24-0445-4dbb-8c97-5804893575c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "006755ac-ed97-47c0-bf28-b41028fb6937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" "-40°C to 125°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2414b501-2b39-455d-b394-6923a24f13f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Priority" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a6d5b3c-a236-45f6-ba79-2a6c5507cba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.625 -0.8)
+		(end -0.625 -0.419)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b20dd33d-39e3-4037-9c08-3f58927c494e")
+	)
+	(fp_line
+		(start -0.625 -0.8)
+		(end -0.244 -0.8)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d75b3be-07dc-4735-95a2-b54f4d6c24c6")
+	)
+	(fp_line
+		(start -0.42 -0.6)
+		(end -0.12 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5099dc27-4a2d-4009-81ef-cc6e1e3a1d6a")
+	)
+	(fp_line
+		(start -0.42 -0.3)
+		(end -0.42 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53bf4d47-42c8-4a73-a7ca-50f0354d2a0e")
+	)
+	(fp_line
+		(start 0.42 0.3)
+		(end 0.42 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c891f364-8f91-42a1-9f84-1a9f0ace66aa")
+	)
+	(fp_line
+		(start 0.42 0.6)
+		(end 0.12 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30883678-a6d3-4b2d-bf7e-1fb5bd33498d")
+	)
+	(fp_rect
+		(start -0.4 -0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2d72ecac-e917-413f-bec9-68deb699d518")
+	)
+	(fp_rect
+		(start -0.425 -0.6)
+		(end 0.425 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec1e9269-8dc3-4849-ae63-1af06b7b1c8a")
+	)
+	(fp_circle
+		(center -0.1 -0.275)
+		(end 0.027 -0.275)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dadda063-60c1-4b2a-b2f2-5c9608f8125a")
+	)
+	(pad "A1" smd roundrect
+		(at -0.175 -0.35)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "14661484-c7ef-4b44-89f3-a7e47e198f5f")
+	)
+	(pad "A2" smd roundrect
+		(at 0.175 -0.35)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "b6075c5d-0881-454f-b9f0-e5384045571c")
+	)
+	(pad "B1" smd roundrect
+		(at -0.175 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "1fdb1c7a-783d-43fe-b264-33c26157048d")
+	)
+	(pad "B2" smd roundrect
+		(at 0.175 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "b3839cab-ce15-4012-ad20-4ca555cfad80")
+	)
+	(pad "C1" smd roundrect
+		(at -0.175 0.35)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "e8530bd8-526a-4a95-82f2-3c67628f7de2")
+	)
+	(pad "C2" smd roundrect
+		(at 0.175 0.35)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.0325)
+		(thermal_bridge_angle 45)
+		(uuid "16f40933-6656-4030-879d-ddb6c73d6fe1")
+	)
+	(embedded_fonts no)
+	(model "Y:/01_Cadence_Library/02_PCB_Library/3D/BGA6-0.35-0.85X1.2X0.4MM.step"
+		(offset
+			(xyz 7.3 4.62 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

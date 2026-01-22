@@ -1,0 +1,312 @@
+(footprint "WLCSP-0.4-0.92X1.16X0.4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.45 -0.7 0)
+		(layer "F.SilkS")
+		(uuid "32829d0f-937c-4705-8a85-a114ecb2a6fe")
+		(effects
+			(font
+				(size 0.78232 0.78232)
+				(thickness 0.10668)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SGM40567-4.2XG/TR"
+		(at 0 -0.127 0)
+		(layer "F.Fab")
+		(uuid "102ed151-4b18-4f93-8550-9a6fe708df20")
+		(effects
+			(font
+				(size 0.536448 0.536448)
+				(thickness 0.073152)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab613007-51bd-42e9-ac24-10cf14b6e093")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD IC PMIC;Li-Ion Battery Liner charger-4.2V-700mA;WLCSP-6B-0.92*1.16"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c330d667-45ff-4d42-b60d-17a9222ab296")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SGMICRO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18ee2edd-584c-46b4-a85b-13d107d681e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SGM40567-4.2XG/TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4de9f018-7c64-44d6-9341-72d5bb1fac06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SKU" "310032697"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "357c6a43-2390-4a3d-b265-facb010167c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Type" "PMIC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "615b5520-2502-45ef-96dd-b01d7cb588cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3de907cf-4b5f-48e4-9308-c38ad03210e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dcd3fe4-53e8-44ab-aa92-2506bbf57e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Temperature" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a16d788-e225-4f46-bd5c-bed681488f0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Priority" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27c4a283-e1b1-4d0a-92f8-6375f569e97b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.635 -0.762)
+		(end -0.635 -0.381)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f8ee73f-2013-492b-a9f5-bf858f3d7509")
+	)
+	(fp_line
+		(start -0.635 -0.762)
+		(end -0.254 -0.762)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fba435aa-52f1-46a3-8163-01a15ce02c50")
+	)
+	(fp_line
+		(start -0.46 -0.58)
+		(end -0.127 -0.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "268ef9eb-9c6a-462b-b36b-1ea4f076f3bf")
+	)
+	(fp_line
+		(start -0.46 -0.254)
+		(end -0.46 -0.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0aede23-b542-46b8-833d-580696d5e30a")
+	)
+	(fp_line
+		(start 0.46 0.254)
+		(end 0.46 0.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abd5a517-48cc-43e3-b4d3-47108cf6878b")
+	)
+	(fp_line
+		(start 0.46 0.58)
+		(end 0.127 0.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69d30529-62d7-423e-944c-1702058fc100")
+	)
+	(fp_rect
+		(start -0.45 -0.6)
+		(end 0.45 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ec3bef18-5d5b-40be-90d4-4fa6d838198e")
+	)
+	(fp_rect
+		(start -0.45 -0.575)
+		(end 0.45 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0d0a39c5-8103-4f5d-9e0d-f743e6495f3b")
+	)
+	(fp_circle
+		(center -0.15 -0.25)
+		(end -0.023 -0.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "30b1c20c-dfa7-4742-b6a6-99dab823b4ef")
+	)
+	(pad "A1" smd roundrect
+		(at -0.2 -0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "bc3c5163-84a6-465d-8801-82e64ad4556e")
+	)
+	(pad "A2" smd roundrect
+		(at 0.2 -0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "db048009-6e08-461b-9ca2-2c2b85a2f505")
+	)
+	(pad "B1" smd roundrect
+		(at -0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "3d08957a-bd45-4e06-a72f-9923ba91e449")
+	)
+	(pad "B2" smd roundrect
+		(at 0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "bb0091cb-ec7f-42fc-9246-e7b1dfd2d40d")
+	)
+	(pad "C1" smd roundrect
+		(at -0.2 0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "c42be5a4-429b-4077-9504-4a477e9500d6")
+	)
+	(pad "C2" smd roundrect
+		(at 0.2 0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "c9c8dfad-6218-4590-82dc-b39571a4594a")
+	)
+	(embedded_fonts no)
+	(model "Y:/01_Cadence_Library/02_PCB_Library/3D/WLCSP-0.4-0.92X1.16X0.4MM v1.step"
+		(offset
+			(xyz 0 0 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

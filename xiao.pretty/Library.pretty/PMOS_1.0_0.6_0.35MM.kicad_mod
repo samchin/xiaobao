@@ -1,0 +1,126 @@
+(footprint "PMOS_1.0*0.6*0.35MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1651 0.3619 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb2d5ce5-2ecf-4db6-9ed1-193e963164bd")
+		(effects
+			(font
+				(size 0.361533 0.361533)
+				(thickness 0.044867)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "PMOS_1.00.60.35MM"
+		(at -0.4 0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "334cd28d-aa09-4709-99e0-e94d14967e1e")
+		(effects
+			(font
+				(size 0.376489 0.376489)
+				(thickness 0.029911)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091336a0-679f-4fd2-aa87-6a879e8be484")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da8f5afc-0ab0-4957-b940-d6e37cd3868f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.3 -0.5)
+		(end 0.3 -0.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ed434c1-823a-4e1d-b3a3-99cd1cabf65b")
+	)
+	(fp_line
+		(start -0.3 0.5)
+		(end -0.3 -0.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "933ee9e6-b037-48b1-a9eb-9f7f6258158a")
+	)
+	(fp_line
+		(start 0.3 -0.5)
+		(end 0.3 0.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "584bfb33-94e4-4ea3-ada3-20862821d715")
+	)
+	(fp_line
+		(start 0.3 0.5)
+		(end -0.3 0.5)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bba26700-9594-4644-b9c9-0aab7898f0be")
+	)
+	(pad "1" smd roundrect
+		(at 0 -0.325)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 0)
+		(uuid "f6b13e54-bf28-47b7-9be5-cb9b7fa579fe")
+	)
+	(pad "2" smd roundrect
+		(at -0.175 0.325 90)
+		(size 0.25 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 0)
+		(uuid "33fd36ea-973e-4287-8c61-05df1fccd03d")
+	)
+	(pad "3" smd roundrect
+		(at 0.175 0.325 90)
+		(size 0.25 0.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0254)
+		(thermal_bridge_angle 0)
+		(uuid "e7ee15c2-0dfa-4550-8fca-2d4380eb1178")
+	)
+	(embedded_fonts no)
+)
