@@ -11439,10 +11439,6 @@
 		(uuid "1f33a4a7-4403-4181-976e-46ca208b71cf")
 	)
 	(no_connect
-		(at 326.39 171.45)
-		(uuid "2cd5a55b-732c-46d8-bf3a-00ecd613ddaa")
-	)
-	(no_connect
 		(at 55.88 139.7)
 		(uuid "40ad0b77-1c52-4368-928a-63cb3a626f04")
 	)
@@ -12657,6 +12653,16 @@
 			(type default)
 		)
 		(uuid "64198eee-a3c7-4cef-9b4e-5fc60fd14afc")
+	)
+	(wire
+		(pts
+			(xy 314.96 171.45) (xy 326.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650147b6-c9b9-482f-84b9-ca975807bc57")
 	)
 	(wire
 		(pts
@@ -14598,6 +14604,16 @@
 		)
 		(uuid "1a9a35e7-24d2-46a2-98a4-93b030d254f0")
 	)
+	(label "PB9"
+		(at 314.96 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b7b2125-01f5-479e-be53-886dcfea5bd8")
+	)
 	(label "PA7{slash}ADC3"
 		(at 191.77 256.54 180)
 		(effects
@@ -14978,16 +14994,6 @@
 		)
 		(uuid "8d45e349-4a74-4164-9386-2cb4841c3298")
 	)
-	(label "PA0"
-		(at 275.59 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "902bc0e0-204e-4ba1-9296-8c0ac972d0cd")
-	)
 	(label "PC2"
 		(at 275.59 67.31 180)
 		(effects
@@ -15177,6 +15183,16 @@
 			(justify left bottom)
 		)
 		(uuid "d3ad8e40-dd8a-43a5-81b5-072dfb25fda1")
+	)
+	(label "PB9"
+		(at 275.59 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d57d93dd-b6d8-45de-9274-7d90fb8a8d76")
 	)
 	(label "PA1{slash}WS2812B_LED"
 		(at 307.34 114.3 0)
