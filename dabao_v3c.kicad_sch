@@ -11624,16 +11624,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 181.61) (xy 165.1 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3f240b-1681-4f33-9c2c-921353ae7d7d")
-	)
-	(wire
-		(pts
 			(xy 104.775 171.45) (xy 104.775 187.96)
 		)
 		(stroke
@@ -11651,6 +11641,16 @@
 			(type default)
 		)
 		(uuid "3e44f9cc-7820-40b9-a60d-7349d37848bc")
+	)
+	(wire
+		(pts
+			(xy 151.13 181.61) (xy 165.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409f2bdb-c3c1-4cc3-a4ea-c539cfff0883")
 	)
 	(wire
 		(pts
@@ -14202,16 +14202,6 @@
 		)
 		(uuid "91f12fd2-f255-4ed9-b24f-c470485fdd88")
 	)
-	(label "PC7"
-		(at 151.13 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "921fcabf-8ccd-4432-b088-a50901ef15a1")
-	)
 	(label "PC0"
 		(at 240.03 160.02 180)
 		(effects
@@ -14291,6 +14281,16 @@
 			(justify left bottom)
 		)
 		(uuid "b4505a4b-8c52-46d1-9118-9eb8debd370e")
+	)
+	(label "PC7"
+		(at 151.13 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66ca1a6-23e7-47c3-81a8-754e45c005df")
 	)
 	(label "2.5V"
 		(at 325.12 219.71 0)
