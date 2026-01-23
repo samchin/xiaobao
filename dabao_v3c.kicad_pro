@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1016
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1,
+          "via_gap": 0.0,
+          "width": 0.166
         }
       ],
       "drc_exclusions": [
@@ -213,6 +218,10 @@
         ],
         [
           "copper_edge_clearance|123110000|77977750|ef284c00-0406-41d5-b3de-3dda13a86544|885f2f35-aaa4-4df7-a235-079df598de28",
+          ""
+        ],
+        [
+          "copper_edge_clearance|140635000|67365950|f4da2f33-147a-4dff-a4d6-39f335bf15a4|f6f306da-cc8f-4282-9f7a-d403c2b0b817",
           ""
         ],
         [
@@ -416,7 +425,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
+        "min_clearance": 0.0889,
         "min_connection": 0.0889,
         "min_copper_edge_clearance": 0.127,
         "min_groove_width": 0.0,
@@ -778,9 +787,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1016,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.095,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.163,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -792,6 +801,13 @@
         "via_diameter": 0.4064,
         "via_drill": 0.2032,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -1076,6 +1092,12 @@
           "group_by": false,
           "label": "Dielectric",
           "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Priority",
+          "name": "Priority",
           "show": false
         }
       ],

@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "USB_CPW_Gap"
+    (constraint clearance (min 0.5mm))
+    (condition "(A.NetName == '/USBCONN_N' || A.NetName == '/USBC_N' || A.NetName == '/USBCONN_P' || A.NetName == '/USBC_P') && B.Type == 'Zone'"))

@@ -5,113 +5,6 @@
 	(uuid "30b97054-956f-4926-8f71-e9554821c3b2")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -6739,6 +6632,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "XIAO ESP32S3_v1.2_230725:TP-D45MIL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TEST-POINT'4545'_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 0)
+					(name "T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "common:WMS4000RSW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10801,12 +10796,6 @@
 		(uuid "d376e805-f81e-442c-8cb6-155820e1ddd6")
 	)
 	(junction
-		(at 62.23 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d46a7e6e-15ad-4a64-a438-3efa09d6f98b")
-	)
-	(junction
 		(at 62.23 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10829,12 +10818,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1621dc-25c7-4680-85a2-0520e9bb8c15")
-	)
-	(junction
-		(at 64.77 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e19421f6-f224-4611-841f-4a687d4fda18")
 	)
 	(junction
 		(at 314.96 200.66)
@@ -11614,6 +11597,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 200.66) (xy 203.2 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adb452b-35b2-4dde-8c2f-e256a1476ca5")
+	)
+	(wire
+		(pts
 			(xy 64.77 229.87) (xy 64.77 231.14)
 		)
 		(stroke
@@ -11804,6 +11797,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 193.04) (xy 203.2 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497d3c86-5007-43d0-902c-e10a03ae3c32")
+	)
+	(wire
+		(pts
 			(xy 81.915 185.42) (xy 81.915 187.96)
 		)
 		(stroke
@@ -11934,7 +11937,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 82.55) (xy 64.77 95.25)
+			(xy 64.77 60.96) (xy 64.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -12101,16 +12104,6 @@
 			(type default)
 		)
 		(uuid "643f9276-279c-4a90-bcd5-e6a656d8eaaf")
-	)
-	(wire
-		(pts
-			(xy 44.45 90.17) (xy 62.23 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6452b45e-b67b-41ca-88a1-19853b4f55ac")
 	)
 	(wire
 		(pts
@@ -12404,6 +12397,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 204.47) (xy 203.2 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf7dbac-fbe3-4549-9bd5-b62dedcc4381")
+	)
+	(wire
+		(pts
 			(xy 280.67 143.51) (xy 280.67 106.68)
 		)
 		(stroke
@@ -12634,7 +12637,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 62.23 90.17)
+			(xy 62.23 53.34) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -12721,16 +12724,6 @@
 			(type default)
 		)
 		(uuid "94cb58e2-d232-430e-98be-cfde519b84ae")
-	)
-	(wire
-		(pts
-			(xy 64.77 60.96) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e64a1c-afca-44e4-a6d7-29d13ef08350")
 	)
 	(wire
 		(pts
@@ -12824,13 +12817,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 82.55) (xy 64.77 82.55)
+			(xy 176.53 219.71) (xy 203.2 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eae65dc-b009-4847-9298-d2d509916239")
+		(uuid "9dd91e74-ffb8-4f00-be6a-0a788b1cd971")
 	)
 	(wire
 		(pts
@@ -13214,6 +13207,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 208.28) (xy 203.2 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c665ac-c971-4c72-8038-4897a97eced7")
+	)
+	(wire
+		(pts
 			(xy 41.91 187.96) (xy 60.96 187.96)
 		)
 		(stroke
@@ -13304,6 +13307,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 196.85) (xy 203.2 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91e26ff-9e0e-4e77-87d4-ecf37f4c262e")
+	)
+	(wire
+		(pts
 			(xy 41.91 45.72) (xy 81.28 45.72)
 		)
 		(stroke
@@ -13321,16 +13334,6 @@
 			(type default)
 		)
 		(uuid "cb96ce56-18fc-4695-9659-740121c771c2")
-	)
-	(wire
-		(pts
-			(xy 62.23 90.17) (xy 62.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd02bd71-505e-4a15-bf7c-1b017700e014")
 	)
 	(wire
 		(pts
@@ -13564,6 +13567,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 215.9) (xy 176.53 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e053c8dd-f23a-4c29-b1fb-540bf0aff1af")
+	)
+	(wire
+		(pts
 			(xy 287.02 55.88) (xy 300.99 55.88)
 		)
 		(stroke
@@ -13694,6 +13707,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 212.09) (xy 203.2 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec770b2b-00bf-4ac5-8db2-9e5e97b42b69")
+	)
+	(wire
+		(pts
 			(xy 259.08 252.73) (xy 259.08 265.43)
 		)
 		(stroke
@@ -13721,6 +13744,16 @@
 			(type default)
 		)
 		(uuid "ef64efc5-ea26-48d8-bd14-cd01edd0168a")
+	)
+	(wire
+		(pts
+			(xy 203.2 215.9) (xy 176.53 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ce793a-454c-4bc3-b4e6-16b5a95068e9")
 	)
 	(wire
 		(pts
@@ -13891,6 +13924,26 @@
 			(justify left bottom)
 		)
 		(uuid "166adc9b-3a90-4e07-9abd-9d4c443eb444")
+	)
+	(label "PB3"
+		(at 181.61 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "194738a8-c205-44fd-bcff-31dea37b7d5d")
+	)
+	(label "PC10"
+		(at 181.61 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a9a35e7-24d2-46a2-98a4-93b030d254f0")
 	)
 	(label "PC9"
 		(at 151.13 176.53 0)
@@ -14292,6 +14345,16 @@
 		)
 		(uuid "b66ca1a6-23e7-47c3-81a8-754e45c005df")
 	)
+	(label "USBCONN_P"
+		(at 181.61 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb96e594-cd1b-4009-a606-2dd241fc44d7")
+	)
 	(label "2.5V"
 		(at 325.12 219.71 0)
 		(effects
@@ -14341,6 +14404,16 @@
 			(justify left bottom)
 		)
 		(uuid "d0fd445e-efd6-409b-a913-8c8d83768f2a")
+	)
+	(label "USBCONN_N"
+		(at 181.61 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d266aca4-05b7-4953-8f69-46076d485278")
 	)
 	(label "PC7"
 		(at 287.02 40.64 0)
@@ -14411,6 +14484,26 @@
 			(justify left bottom)
 		)
 		(uuid "e093dc41-eb0d-446f-85cc-564caa81d8a0")
+	)
+	(label "PC11"
+		(at 181.61 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1ff4167-06f3-4026-a957-ee44131aeb9e")
+	)
+	(label "PB4"
+		(at 181.61 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7bbff6b-910f-4e94-8140-ae5ddbdde6a7")
 	)
 	(label "PC6"
 		(at 287.02 38.1 0)
@@ -14493,6 +14586,90 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a2500bc-c4b1-497d-a447-d6cd0150e914")
+		(property "Reference" "TP7"
+			(at 208.28 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "2eb200d1-cad1-4c20-9d3d-e80ef414d76e")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP7")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -14903,6 +15080,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 92.71 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a665479e-93d6-46ee-bb08-cccb940787a5")
 		)
@@ -15025,6 +15220,24 @@
 		)
 		(property "Temperature" "-50°C to 150°C"
 			(at 81.915 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.915 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 81.915 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,6 +15519,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 132.08 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 132.08 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70f0fd03-bd47-4de8-a9f0-435f69e38ed0")
 		)
@@ -15515,6 +15746,24 @@
 		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 269.24 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 269.24 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,6 +16048,90 @@
 		)
 	)
 	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "270a04ba-c03e-4894-9673-b82585b2efcb")
+		(property "Reference" "TP6"
+			(at 208.28 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "08eda552-ce19-4eba-a99b-94b824fa9e23")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Seeed_libadl:Capacitors/302010053")
 		(at 238.76 104.14 0)
 		(unit 1)
@@ -15915,6 +16248,24 @@
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
+			(at 238.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 238.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -16084,6 +16435,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 330.2 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 330.2 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26d392ae-2423-4de0-981a-27b9e98dc8cb")
 		)
@@ -16226,6 +16595,90 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "327c19ef-c323-43b3-a9f8-724f48f4be7c")
+		(property "Reference" "TP4"
+			(at 208.28 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "d7850491-6a58-402c-baeb-59b8f99aa95a")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16411,6 +16864,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "731e1523-78b6-4c13-9142-68df31c913fc")
 		)
@@ -16582,6 +17053,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 318.77 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 318.77 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16782,6 +17271,24 @@
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
+			(at 259.08 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 259.08 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 259.08 269.24 0)
 			(effects
 				(font
@@ -17050,6 +17557,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "4c0b321a-ec88-41da-b78d-2040369bebef")
 		)
@@ -17124,6 +17649,24 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 383.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 383.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 383.54 20.32 0)
 			(effects
 				(font
@@ -17353,6 +17896,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 85.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "130c75a5-e83d-43f0-9406-d40483d12a58")
 		)
@@ -17428,73 +17989,6 @@
 			(project "dabao_v3c"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4937190e-185d-4fb0-b773-08065fa9dfd7")
-		(property "Reference" "TP1"
-			(at 52.07 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.07 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 54.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee2dbcbf-d137-4ebf-b0c2-3cde2bd55260")
-		)
-		(instances
-			(project ""
-				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -17606,6 +18100,24 @@
 			)
 		)
 		(property "Temperature" "-30°C to 85°C"
+			(at 60.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 60.96 229.87 0)
 			(effects
 				(font
@@ -17836,6 +18348,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 81.915 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 81.915 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39474c44-9ba3-4b4b-86be-fc819f71f7aa")
 		)
@@ -17961,6 +18491,24 @@
 		)
 		(property "Temperature" "-40°C to 85°C"
 			(at 41.91 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 41.91 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18194,6 +18742,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba479fba-c0fa-43cf-bad3-8de2eebafca6")
 		)
@@ -18420,6 +18986,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 317.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 317.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49730a95-b7e1-40b1-87d1-7460180c68d3")
 		)
@@ -18579,6 +19163,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18774,6 +19376,24 @@
 		)
 		(property "Description" "Baochip0 WLCSP"
 			(at 311.404 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19149,6 +19769,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 337.82 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 337.82 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60a76403-1bc8-4c7f-9ae7-f55b5c8128c1")
 		)
@@ -19159,6 +19797,90 @@
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "616ba50a-565e-4cef-a799-32cc28ba3d1b")
+		(property "Reference" "TP2"
+			(at 208.28 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "4c143613-ff2c-4e9b-b936-a6d62c88f60f")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19212,6 +19934,24 @@
 		)
 		(property "Description" "Baochip0 WLCSP"
 			(at 311.404 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,6 +20306,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23f37461-df14-471c-b6fe-cfcd8e7b219a")
 		)
@@ -19727,6 +20485,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 341.63 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8caaaee8-cba5-4450-bdd4-7b72b081d636")
 		)
@@ -19870,6 +20646,24 @@
 		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 41.91 206.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 41.91 206.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 206.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20045,6 +20839,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20237,6 +21049,24 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 207.01 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 207.01 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 207.01 248.92 0)
 			(effects
 				(font
@@ -20468,6 +21298,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 307.34 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26ae0311-8ebc-43a1-b9a8-7a0e3a86c075")
 		)
@@ -20673,6 +21521,24 @@
 		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 191.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 191.77 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 191.77 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20914,6 +21780,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 29.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21178,6 +22062,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 207.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 207.01 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "339c7dcf-e6ff-44ad-897d-be518cc762cc")
 		)
@@ -21300,6 +22202,24 @@
 			)
 		)
 		(property "PUBLISHER" ""
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 63.5 120.65 0)
 			(effects
 				(font
@@ -21483,6 +22403,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 200.66 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8702574e-50c3-4c24-a092-72ff9f75c891")
 		)
@@ -21617,6 +22555,24 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -21896,73 +22852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 44.45 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ff16de-4706-4e68-b045-db3fe7c1f411")
-		(property "Reference" "TP2"
-			(at 46.99 85.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 88.1379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e51293eb-7c9c-4ac0-97ef-529d17d7b710")
-		)
-		(instances
-			(project "dabao_v3c"
-				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power-altium-import:P1.8V_BAR")
 		(at 331.47 229.87 180)
 		(unit 1)
@@ -22145,6 +23034,24 @@
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
+			(at 276.86 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 276.86 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 276.86 271.78 0)
 			(effects
 				(font
@@ -22348,6 +23255,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 161.29 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "c30981c2-eb51-4891-af8c-3244530416c9")
 		)
@@ -22370,6 +23295,71 @@
 			(project "dabao_v3c"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "P & G:GND")
+		(at 176.53 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f630c2e-c4f4-470c-a9a6-9e188b0bc076")
+		(property "Reference" "#PWR015"
+			(at 176.53 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05cc1ef4-0c0c-4e8c-a91f-f1a140181a5a")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -22638,6 +23628,90 @@
 		)
 	)
 	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa077dd7-787b-4a2d-bdd4-305a6f27d9e6")
+		(property "Reference" "TP5"
+			(at 208.28 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "b1c7b31b-c99b-467d-828d-015091a5c92b")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Seeed_libdb:Resistors/RC0201FR-07150KL")
 		(at 142.24 264.16 90)
 		(unit 1)
@@ -22773,6 +23847,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 142.24 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 142.24 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f00fcc34-e806-4263-a4b6-3ce71adcdb9f")
 		)
@@ -22899,6 +23991,24 @@
 		)
 		(property "Description" "Baochip0 WLCSP"
 			(at 108.204 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23245,6 +24355,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 60.96 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f64417f3-05fc-46ce-bfeb-6f04d5c47f15")
 		)
@@ -23369,6 +24497,24 @@
 			)
 		)
 		(property "Temperature" "-40°C to 125°C"
+			(at 211.455 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 211.455 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 211.455 92.71 0)
 			(effects
 				(font
@@ -23509,6 +24655,24 @@
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
+			(at 81.915 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 81.915 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 81.915 194.31 0)
 			(effects
 				(font
@@ -23712,6 +24876,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 207.645 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 207.645 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d66434fe-4094-4ca9-b39d-895bf6ddb23f")
 		)
@@ -23863,6 +25045,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 204.47 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 204.47 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4679ad35-5082-4924-a199-94ee441699b6")
 		)
@@ -23995,6 +25195,24 @@
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 234.95 38.1 0)
 			(effects
 				(font
@@ -24205,6 +25423,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 383.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
@@ -24274,6 +25510,90 @@
 			(project "dabao_v3c"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0298055-a8ee-4150-bc7e-18ce195f5d14")
+		(property "Reference" "TP3"
+			(at 208.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "60b1f241-ca68-4b68-b6fa-78592d10613b")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -24458,6 +25778,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 58.42 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eee4c0f-4902-4ba3-bdb7-0711200d2e8d")
 		)
@@ -24610,6 +25948,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 26.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 26.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A6"
@@ -24872,6 +26228,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72393bb8-7f09-4c8e-8d8e-e420719be65d")
 		)
@@ -24933,6 +26307,24 @@
 		)
 		(property "Description" "Baochip0 WLCSP"
 			(at 359.664 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 359.41 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 359.41 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25354,6 +26746,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3740f8ee-d4e9-45e7-b39e-d6d9a31e77cc")
 		)
@@ -25513,6 +26923,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25720,6 +27148,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aea90bf8-8ab4-455e-abf2-094455994181")
 		)
@@ -25864,6 +27310,24 @@
 		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 269.24 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 269.24 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26032,6 +27496,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 306.07 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 306.07 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ebe2f84-d129-4de4-9851-a0721d1e5db1")
 		)
@@ -26102,10 +27584,93 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 383.54 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 383.54 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "dabao_v1"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-altium-import:P1.8V_BAR")
+		(at 176.53 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c5d9c3-0b82-4da6-9f14-7303fc767391")
+		(property "Reference" "#PWR019"
+			(at 176.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "05fd133d-64e4-49c3-9a5a-8b01b9516fa1")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -26255,6 +27820,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26412,6 +27995,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f0dc9d3-be51-4379-aa30-f3626711c85a")
 		)
@@ -26546,6 +28147,24 @@
 		)
 		(property "Description" "Baochip0 WLCSP"
 			(at 311.404 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26900,6 +28519,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41119f05-b1d1-4aaa-a1a3-31f2ce5761ee")
 		)
@@ -26910,6 +28547,90 @@
 			(project "dabao_v3c"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f14370d5-c66e-462b-8cc0-9b48a0c92ce5")
+		(property "Reference" "TP1"
+			(at 208.28 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "923fa541-b777-4960-a83c-23bbaacf846f")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -27044,6 +28765,24 @@
 		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 73.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27191,6 +28930,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50b732af-a338-4f41-9fb7-1c28a3b1c1ab")
 		)
@@ -27313,6 +29070,24 @@
 			)
 		)
 		(property "Temperature" "-40°C to 125°C"
+			(at 243.84 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 243.84 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 243.84 255.27 0)
 			(effects
 				(font
@@ -27488,6 +29263,24 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 69.85 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 69.85 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41e0a54a-010d-4972-aeb7-cba253f70d72")
 		)
@@ -27617,6 +29410,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 94.615 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 94.615 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25deb9f5-93f4-4569-974f-6ac74de69c5a")
 		)
@@ -27627,6 +29438,90 @@
 			(project "dabao_v3c"
 				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XIAO ESP32S3_v1.2_230725-eagle-import:TEST-POINT'4545'")
+		(at 205.74 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff6cbb04-6ea1-41fc-ad6a-ade975696489")
+		(property "Reference" "TP8"
+			(at 208.28 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT'4545'"
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "xiao:TP-D45MIL"
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "b5d22e0d-5885-4245-98d5-27a95f87139c")
+		)
+		(instances
+			(project "dabao_v3c"
+				(path "/30b97054-956f-4926-8f71-e9554821c3b2"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
