@@ -13786,7 +13786,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 151.13) (xy 105.41 151.13)
+			(xy 95.25 151.13) (xy 107.95 151.13)
 		)
 		(stroke
 			(width 0)
@@ -15544,6 +15544,16 @@
 		)
 		(uuid "8d45e349-4a74-4164-9386-2cb4841c3298")
 	)
+	(label "PC13{slash}BOOT"
+		(at 107.95 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e50f5bf-4822-4beb-8cc5-de8d93ae29f7")
+	)
 	(label "PC2"
 		(at 218.44 60.96 180)
 		(effects
@@ -15803,16 +15813,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa2269fa-8355-41f1-b1d4-a6672db1969f")
-	)
-	(label "PC13"
-		(at 105.41 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdebb2b7-6cb0-453d-bd44-af544311542a")
 	)
 	(label "PC9"
 		(at 325.12 62.23 0)
@@ -18069,7 +18069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode:ESD-0201"
+		(property "Footprint" "xiao:ESD-0201"
 			(at 63.5 102.87 0)
 			(effects
 				(font
@@ -23596,7 +23596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode:ESD-0201"
+		(property "Footprint" "xiao:ESD-0201"
 			(at 273.05 102.87 0)
 			(effects
 				(font
@@ -27225,7 +27225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MYPN" "R-512-1P-1_16W-0402"
+		(property "MYPN" ""
 			(at 94.742 145.542 0)
 			(effects
 				(font
