@@ -1,0 +1,5 @@
+- Board size wrong
+- No stackup information in the production notes
+- Did not note castellated holes
+- D11 - D14 on the back are incorrectly labeled
+-
