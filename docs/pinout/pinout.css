@@ -366,8 +366,8 @@ th {
 }
 
 .i2c {
-    background-color: #268bd233;
-    border-color: #268bd2;
+    background-color: #64b5f633;
+    border-color: #64b5f6;
 }
 
 .spi {
@@ -381,8 +381,8 @@ th {
 }
 
 .pwm {
-    background-color: #1e88e533;
-    border-color: #1e88e5;
+    background-color: #1565c033;
+    border-color: #1565c0;
 }
 
 .pin-label {
@@ -434,7 +434,7 @@ th {
 }
 
 .labels tr:hover .i2c {
-    background-color: #3ba6f166;
+    background-color: #90caf966;
 }
 
 .labels tr:hover .spi {
@@ -446,7 +446,7 @@ th {
 }
 
 .labels tr:hover .pwm {
-    background-color: #42a5f566;
+    background-color: #0d47a166;
 }
 
 .labels tr:hover .pin-label {

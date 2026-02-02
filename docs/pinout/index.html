@@ -51,9 +51,10 @@
                         id="bio" />BIO</label></li>
             <li><label class="gpio" for="gpio" title="Show or hide GPIO pin names."><input type="checkbox" checked
                         name="gpio" id="gpio" />GPIO</label></li>
-            <li><label class="adc" for="adc" title="Show or hide ADC functions."><input type="checkbox" checked
-                        name="adc" id="adc" />ADC</label></li>
+            <li><label class="adc" for="adc" title="Show or hide ADC functions."><input type="checkbox" name="adc"
+                        id="adc" />ADC</label></li>
         </ul>
+        <p style="margin-top: 10px; font-size: 12px; color: #666;">*ADC Drivers under development</p>
         <noscript>
             <p>Want to show/hide interfaces and view a full pinout? Enable JavaScript!</p>
         </noscript>
@@ -64,144 +65,144 @@
             <thead>
                 <th>Pin</th>
                 <th>Name</th>
+                <th>GPIO</th>
+                <th>BIO</th>
                 <th>SPI</th>
                 <th>I2C</th>
                 <th>UART</th>
                 <th>PWM</th>
                 <th>ADC</th>
-                <th>BIO</th>
-                <th>GPIO</th>
             </thead>
             <tbody>
                 <!-- Pin 0: D0 -->
                 <tr aria-label="Pin 0" data-label="D0" data-pin-index="0">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PA4</td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
-                    <td class="uart" title="UART 0: Transmit">UART_0_TX</td>
+                    <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc" title="ADC Channel 0">ADC0</td>
-                    <td class="bio"></td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PA4</td>
                 </tr>
                 <!-- Pin 1: D11 (In-between, transparent by default) -->
                 <tr aria-label="Pin 1" class="inbetween" data-label="D11" data-pin-index="1">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC6</td>
+                    <td class="bio" title="BIO number">BIO_22</td>
                     <td class="spi"></td>
                     <td class="i2c" title="I2C 3: Data">I2C_3_SDA</td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_22</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC6</td>
                 </tr>
                 <!-- Pin 2: D1 -->
                 <tr aria-label="Pin 2" data-label="D1" data-pin-index="2">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PA5</td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc" title="ADC Channel 1">ADC1</td>
-                    <td class="bio"></td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PA5</td>
                 </tr>
                 <!-- Pin 3: D12 (In-between, transparent by default) -->
                 <tr aria-label="Pin 3" class="inbetween" data-label="D12" data-pin-index="3">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC5</td>
+                    <td class="bio" title="BIO number">BIO_21</td>
                     <td class="spi"></td>
                     <td class="i2c" title="I2C 3: Clock">I2C_3_SCL</td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_21</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC5</td>
                 </tr>
                 <!-- Pin 4: D2 -->
                 <tr aria-label="Pin 4" data-label="D2" data-pin-index="4">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PA6</td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
-                    <td class="i2c" title="I2C 0: Data">I2C_0_SDA</td>
+                    <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc" title="ADC Channel 2">ADC2</td>
-                    <td class="bio"></td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PA6</td>
                 </tr>
                 <!-- Pin 5: D13 (In-between, transparent by default) -->
                 <tr aria-label="Pin 5" class="inbetween" data-label="D13" data-pin-index="5">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC3</td>
+                    <td class="bio" title="BIO number">BIO_19</td>
                     <td class="spi" title="SPI 2: Chip-select 0">SPI_2_CS0</td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm" title="PWM 2: Channel 3">PWM_2[3]</td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_19</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC3</td>
                 </tr>
                 <!-- Pin 6: D3 -->
                 <tr aria-label="Pin 6" data-label="D3" data-pin-index="6">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC14</td>
+                    <td class="bio" title="BIO number">BIO_30</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_30</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC14</td>
                 </tr>
                 <!-- Pin 7: D14 (In-between, transparent by default) -->
                 <tr aria-label="Pin 7" class="inbetween" data-label="D14" data-pin-index="7">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC9</td>
+                    <td class="bio" title="BIO number">BIO_25</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_25</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC9</td>
                 </tr>
                 <!-- Pin 8: D4 -->
                 <tr aria-label="Pin 8" data-label="D4" data-pin-index="8">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB12</td>
+                    <td class="bio" title="BIO number">BIO_12</td>
                     <td class="spi"></td>
                     <td class="i2c" title="I2C 0: Data">I2C_0_SDA</td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_12</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB12</td>
                 </tr>
                 <!-- Pin 9: D15 (In-between, transparent by default) -->
                 <tr aria-label="Pin 9" class="inbetween" data-label="D15" data-pin-index="9">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC8</td>
+                    <td class="bio" title="BIO number">BIO_24</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_24</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC8</td>
                 </tr>
                 <!-- Pin 10: D5 -->
                 <tr aria-label="Pin 10" data-label="D5" data-pin-index="10">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB11</td>
+                    <td class="bio" title="BIO number">BIO_11</td>
                     <td class="spi"></td>
                     <td class="i2c" title="I2C 0: Clock">I2C_0_SCL</td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_11</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB11</td>
                 </tr>
                 <!-- Pin 11: D16 (In-between, transparent by default) -->
                 <tr aria-label="Pin 11" class="inbetween" data-label="D16" data-pin-index="11">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC7</td>
+                    <td class="bio" title="BIO number">BIO_23</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_23</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC7</td>
                 </tr>
                 <!-- Pin 12: D6 -->
                 <tr aria-label="Pin 12" data-label="D6" data-pin-index="12">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB14</td>
+                    <td class="bio" title="BIO number">BIO_14</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart" title="UART 2: Transmit">UART_2_TX</td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_14</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB14</td>
                 </tr>
             </tbody>
         </table>
@@ -214,147 +215,144 @@
             <thead>
                 <th scope="col">Pin</th>
                 <th scope="col">Name</th>
+                <th scope="col">GPIO</th>
+                <th scope="col">BIO</th>
                 <th scope="col">SPI</th>
                 <th scope="col">I2C</th>
                 <th scope="col">UART</th>
                 <th scope="col">PWM</th>
                 <th scope="col">ADC</th>
-                <th scope="col">BIO</th>
-                <th scope="col">GPIO</th>
             </thead>
             <tbody>
                 <!-- Pin 22: 5V -->
                 <tr aria-label="Pin 22" data-label="5V" data-pin-index="22">
+                    <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="power"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- In-between pin (between 5V and GND, hidden by default) -->
                 <tr aria-label="In-between pin" class="inbetween">
                     <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- Pin 21: GND -->
                 <tr aria-label="Pin 21" data-label="GND" data-pin-index="21">
+                    <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="ground"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- In-between pin (between GND and 3V3, hidden by default) -->
                 <tr aria-label="In-between pin" class="inbetween">
                     <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- Pin 20: 3V3 -->
                 <tr aria-label="Pin 20" data-label="3V3" data-pin-index="20">
+                    <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="power"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- In-between pin (between 3V3 and D10, hidden by default) -->
                 <tr aria-label="In-between pin" class="inbetween">
                     <td class="gpio"></td>
+                    <td class="bio"></td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio"></td>
-                    <td class="gpio"></td>
                 </tr>
                 <!-- Pin 19: D10 -->
                 <tr aria-label="Pin 19" data-label="D10" data-pin-index="19">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC1</td>
+                    <td class="bio" title="BIO number">BIO_17</td>
                     <td class="spi" title="SPI 2: Data 0">SPI_2_D0</td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm" title="PWM 2: Channel 1">PWM_2[1]</td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_17</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC1</td>
                 </tr>
-                <!-- Pin 18: D9 (In-between, transparent by default) -->
-                <tr aria-label="Pin 18" class="inbetween" data-label="D9" data-pin-index="18">
+                <!-- Pin 16: D19 (In-between, transparent by default) -->
+                <tr aria-label="Pin 16" class="inbetween" data-label="D19" data-pin-index="16">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB9</td>
+                    <td class="bio" title="BIO number">BIO_9</td>
+                    <td class="spi"></td>
+                    <td class="i2c"></td>
+                    <td class="uart"></td>
+                    <td class="pwm"></td>
+                    <td class="adc"></td>
+                </tr>
+                <!-- Pin 18: D9 -->
+                <tr aria-label="Pin 18" data-label="D9" data-pin-index="18">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC2</td>
+                    <td class="bio" title="BIO number">BIO_18</td>
                     <td class="spi" title="SPI 2: Data 1">SPI_2_D1</td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm" title="PWM 2: Channel 2">PWM_2[2]</td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_18</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC2</td>
                 </tr>
-                <!-- Pin 17: D8 -->
-                <tr aria-label="Pin 17" data-label="D8" data-pin-index="17">
-                    <td class="spi" title="SPI 2: Clock">SPI_2_CLK</td>
-                    <td class="i2c"></td>
-                    <td class="uart"></td>
-                    <td class="pwm" title="PWM 2: Channel 0">PWM_2[0]</td>
-                    <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_16</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC0</td>
-                </tr>
-                <!-- Pin 16: D19 (In-between, transparent by default) -->
-                <tr aria-label="Pin 16" class="inbetween" data-label="D19" data-pin-index="16">
-                    <td class="spi"></td>
-                    <td class="i2c"></td>
-                    <td class="uart"></td>
-                    <td class="pwm"></td>
-                    <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_9</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB9</td>
-                </tr>
-                <!-- Pin 15: D18 -->
-                <tr aria-label="Pin 15" data-label="D18" data-pin-index="15">
+                <!-- Pin 15: D18 (In-between, transparent by default) -->
+                <tr aria-label="Pin 15" class="inbetween" data-label="D18" data-pin-index="15">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB1</td>
+                    <td class="bio" title="BIO number">BIO_1</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm" title="PWM 1: Channel 1">PWM_1[1]</td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_1</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB1</td>
+                </tr>
+                <!-- Pin 17: D8 -->
+                <tr aria-label="Pin 17" data-label="D8" data-pin-index="17">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC0</td>
+                    <td class="bio" title="BIO number">BIO_16</td>
+                    <td class="spi" title="SPI 2: Clock">SPI_2_CLK</td>
+                    <td class="i2c"></td>
+                    <td class="uart"></td>
+                    <td class="pwm" title="PWM 2: Channel 0">PWM_2[0]</td>
+                    <td class="adc"></td>
                 </tr>
                 <!-- Pin 14: D17 (In-between, transparent by default) -->
                 <tr aria-label="Pin 14" class="inbetween" data-label="D17" data-pin-index="14">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PC4</td>
+                    <td class="bio" title="BIO number">BIO_20</td>
                     <td class="spi" title="SPI 2: Chip-select 1">SPI_2_CS1</td>
                     <td class="i2c"></td>
                     <td class="uart"></td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_20</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PC4</td>
                 </tr>
                 <!-- Pin 13: D7 -->
                 <tr aria-label="Pin 13" data-label="D7" data-pin-index="13">
+                    <td class="gpio" title="GPIO Pin Name">GPIO_PB13</td>
+                    <td class="bio" title="BIO number">BIO_13</td>
                     <td class="spi"></td>
                     <td class="i2c"></td>
                     <td class="uart" title="UART 2: Receive">UART_2_RX</td>
                     <td class="pwm"></td>
                     <td class="adc"></td>
-                    <td class="bio" title="BIO number">BIO_13</td>
-                    <td class="gpio" title="GPIO Pin Name">GPIO_PB13</td>
                 </tr>
             </tbody>
         </table>
