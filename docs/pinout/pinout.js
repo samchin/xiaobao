@@ -5,7 +5,7 @@ var advanced = document.querySelectorAll(".advanced");
 document.getElementById("nav").classList.remove("nojs");
 for (var i = 0; i < inputs.length; i++) {
     if (inputs[i].type != "checkbox") continue;
-    switch(inputs[i].name) {
+    switch (inputs[i].name) {
         case "australian":
             inputs[i].onchange = australian_on_change;
             break;
@@ -14,6 +14,9 @@ for (var i = 0; i < inputs.length; i++) {
             break;
         case "advanced":
             inputs[i].onchange = advanced_on_change;
+            break;
+        case "inbetween":
+            inputs[i].onchange = inbetween_on_change;
             break;
         default:
             inputs[i].onchange = interface_on_change;
@@ -37,6 +40,13 @@ function reversed_on_change() {
 }
 function australian_on_change() {
     pinout.classList.toggle("australian-view", this.checked);
+}
+function inbetween_on_change() {
+    var checked = this.checked;
+    var rows = pinout.getElementsByClassName("inbetween");
+    for (var j = 0; j < rows.length; j++) {
+        rows[j].classList.toggle("show", checked);
+    }
 }
 
 // Boof to a sensible default window size

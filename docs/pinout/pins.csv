@@ -1,0 +1,24 @@
+Physical Index,Label,In-between,PWM,Pin ID,Name,AF1,AF2,AF3,ANA/Power,BIO
+0,D0,No,-,G3,PA4,UARTTX_0,-,-,ADC0,-
+1,D11,Yes,-,F4,PC6,-,I2CSDA_3,-,-,22
+2,D1,No,-,C4,PA5,-,-,-,ADC1,-
+3,D12,Yes,-,E3,PC5,-,I2CSCL_3,-,-,21
+4,D2,No,-,F6,PA6,-,-,I2CSDA_0,ADC2,-
+5,D13,Yes,PWM_2[3],H8,PC3,-,SPMCS0_2,PWM_2[3],-,19
+6,D3,No,-,D2,PC14,-,-,-,-,30
+7,D14,Yes,-,H3,PC9,-,-,-,-,25
+8,D4,No,-,C9,PB12,I2CSDA_0,-,-,-,12
+9,D15,Yes,-,H6,PC8,-,-,-,-,24
+10,D5,No,-,B9,PB11,I2CSCL_0,-,-,-,11
+11,D16,Yes,-,H7,PC7,-,-,-,-,23
+12,D6,No,-,E9,PB14,UARTTX_2,-,-,-,14
+13,D7,No,-,D9,PB13,UARTRX_2,-,-,-,13
+14,D17,Yes,-,E8,PC4,-,SPMCS1_2,-,-,20
+15,D18,Yes,PWM_1[1],A9,PB1,-,-,PWM_1[1],-,1
+16,D19,Yes,-,C8,PB9,-,-,-,-,9
+17,D8,No,PWM_2[0],F9,PC0,-,SPMCLK_2,PWM_2[0],-,16
+18,D9,No,PWM_2[2],H9,PC2,-,SPMD1_2,PWM_2[2],-,18
+19,D10,No,PWM_2[1],G9,PC1,-,SPMD0_2,PWM_2[1],-,17
+20,3V3,No,-,A3/H4,+3.3V,-,-,-,Power Rail,-
+21,GND,No,-,F5/D4,GND,-,-,-,Ground,-
+22,5V,No,-,-,VBUS,-,-,-,Power Input,-
