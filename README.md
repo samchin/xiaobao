@@ -1,8 +1,11 @@
 # Xiaobao
 
-Xiaobao (小包) is a miniaturized evaluation board for the [Baochip-1x](https://github.com/baochip/baochip-1x), forked from the original [Dabao](https://github.com/baochip/dabao) design. This board was initially developed during the MIT Residency at Seeed in January 2026.
+Xiaobao (小包) is a miniaturized evaluation board for the [Baochip-1x](https://github.com/baochip/baochip-1x), forked from the original [Dabao](https://github.com/baochip/dabao) design. This board was initially developed during the [MIT Residency at Seeed](https://github.com/Seeed-Studio/MakerCamp/tree/main/2026-01-MIT/Sam) in January 2026.
 
 The board uses the [Seeed Studio XIAO](https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series/) form factor, making it compatible with the XIAO ecosystem of carrier boards and accessories.
+
+## Documentation
+Go to [xiaobao.samch.in](https://xiaobao.samch.in) for additional details.
 
 ## About the Baochip-1x
 
@@ -31,8 +34,8 @@ The Baochip-1x is a mostly open-RTL, RISC-V microcontroller fabricated in TSMC 2
 | Label | Pin ID | Name | AF1 | AF2 | AF3 | ANA/Power | BIO |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **D0** | G3 | PA4 | UARTTX_0 | - | - | ADC0 | - |
-| **D1** | C4 | PA5 | - | - | I2CSCL_0 | ADC1 | - |
-| **D2** | F6 | PA6 | - | - | I2CSDA_0 | ADC2 | - |
+| **D1** | C4 | PA5 | - | - | - | ADC1 | - |
+| **D2** | F6 | PA6 | - | - | - | ADC2 | - |
 | **D3** | D2 | PC14 | - | - | - | - | 30 |
 | **D4** | C9 | PB12 | I2CSDA_0 | - | - | - | 12 |
 | **D5** | B9 | PB11 | I2CSCL_0 | - | - | - | 11 |
@@ -57,24 +60,12 @@ The Baochip-1x is a mostly open-RTL, RISC-V microcontroller fabricated in TSMC 2
 </details>
 
 
-## Design Files
-
-This repo contains KiCad 8 design files:
-
-- `xiaobao.kicad_sch` — Schematic
-- `xiaobao.kicad_pcb` — PCB layout
-- `xiaobao.pdf` — Schematic PDF export
-- `jlcpcb/` — Production files for JLCPCB fabrication
-- `production/` — Additional manufacturing outputs
-- `xiao.pretty/` — Custom footprint library
 
 ## Resources
 
 - [baochip.com](https://baochip.com/) — Official site with links to documentation, OS, and purchasing info
 - [Coder's Guide to the Baochip-1x](https://baochip.github.io/baochip-1x/) — Hardware reference and peripheral docs
 - [Dabao on Crowd Supply](https://www.crowdsupply.com/baochip/dabao) — Original eval board campaign
-- [Seeed Studio XIAO Series](https://wiki.seeedstudio.com/SeeedStudio_XIAO_Series/) — Compatible form factor ecosystem
-- [Seeed Maker Camp](https://github.com/Seeed-Studio/MakerCamp/tree/main/2026-01-MIT/Sam) — Project documentation from Maker Camp Shenzhen
 
 ## License
 
@@ -83,15 +74,11 @@ This project is licensed under the [CERN Open Hardware License Version 2 - Weakl
 You can use, modify, and distribute the design (including commercially), but if you distribute modified hardware or design files, you must release those modifications under the same license.
 
 
-
-
 ## Acknowledgments
-
 Based on the [Dabao](https://github.com/baochip/dabao) evaluation board by [Baochip](https://github.com/baochip).
 
 
-### Xiaobao vs Dabao
-
+#### Xiaobao vs Dabao
 Xiaobao is a smaller form factor variant of the Dabao eval board. Key differences:
 
 - 6-layer PCB for higher routing density
