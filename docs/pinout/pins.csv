@@ -14,10 +14,10 @@ Physical Index,Label,In-between,PWM,Pin ID,Name,AF1,AF2,AF3,ANA/Power,BIO
 12,D6,No,-,E9,PB14,UARTTX_2,-,-,-,14
 13,D7,No,-,D9,PB13,UARTRX_2,-,-,-,13
 14,D17,Yes,-,E8,PC4,-,SPMCS1_2,-,-,20
-15,D18,Yes,PWM_1[1],A9,PB1,-,-,PWM_1[1],-,1
+15,D18,No,PWM_1[1],A9,PB1,-,-,PWM_1[1],-,1
 16,D19,Yes,-,C8,PB9,-,-,-,-,9
 17,D8,No,PWM_2[0],F9,PC0,-,SPMCLK_2,PWM_2[0],-,16
-18,D9,No,PWM_2[2],H9,PC2,-,SPMD1_2,PWM_2[2],-,18
+18,D9,Yes,PWM_2[2],H9,PC2,-,SPMD1_2,PWM_2[2],-,18
 19,D10,No,PWM_2[1],G9,PC1,-,SPMD0_2,PWM_2[1],-,17
 20,3V3,No,-,A3/H4,+3.3V,-,-,-,Power Rail,-
 21,GND,No,-,F5/D4,GND,-,-,-,Ground,-
