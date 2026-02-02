@@ -94,6 +94,12 @@ header li:nth-child(4) a:hover {
     top: -20px;
 }
 
+.pico img {
+    width: 366px;
+    height: auto;
+    object-fit: contain;
+}
+
 table {
     font-family: ui-monospace,
         Menlo, Monaco,
@@ -215,6 +221,19 @@ table {
 .labels tbody tr.inbetween:not([data-pin-index]).show:before {
     opacity: 0;
     background-color: transparent;
+}
+
+/* Power pin D number labels */
+.labels tbody tr[data-label="5V"]:before,
+.labels tbody tr[data-label="3V3"]:before {
+    background-color: #dc322f;
+    color: #ffffff;
+}
+
+/* Ground pin D number label */
+.labels tbody tr[data-label="GND"]:before {
+    background-color: #002b36;
+    color: #ffffff;
 }
 
 .labels.right tbody tr:before {
