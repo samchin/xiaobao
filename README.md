@@ -20,7 +20,7 @@ The Baochip-1x is a mostly open-RTL, RISC-V microcontroller fabricated in TSMC 2
 
 ## Pinout
 
-![Xiaobao Pinout](documentation/xiaobao_pinout_v1.png)
+![Xiaobao Pinout](docs/assets/xiaobao_pinout_v1.png)
 
 
 <details>
